@@ -46,7 +46,7 @@ const interestsList = data.map((interest) => {
 
 export default (styleClass) => {
   return (
-    <div className="row">
+    <div className="row" id="interests">
       <div className="col-12">
         <SubTitle title="Interests" />
         <section className={`interest-section ${styleClass}`}>

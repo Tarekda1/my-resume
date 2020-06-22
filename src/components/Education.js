@@ -5,7 +5,7 @@ import CollageItem from "./CollageItem";
 
 const Education = () => {
   return (
-    <div className="row">
+    <div className="row" id="education">
       <div className="col-12">
         <section className="section-wrapper section">
           <SubTitle title="Education" />
@@ -13,6 +13,7 @@ const Education = () => {
             {collages.map((experience) => {
               return (
                 <CollageItem
+                  key={experience.id}
                   title={experience.title}
                   date={experience.date}
                   institute={experience.institute}

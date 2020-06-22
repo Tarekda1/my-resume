@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 const Contact = () => {
   const classes = useStyles();
   return (
-    <div className="row">
+    <div className="row" id="contact">
       <div className="col-12">
         <section className="section-contact section">
           <SubTitle title="Contact Me" styleClass="contact-header" />

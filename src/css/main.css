@@ -370,12 +370,12 @@ Navbar
     justify-content: flex-end;
   }
   .nav-links li {
-    margin-right: 2rem;
+    margin-right: 0.5rem;
   }
   .nav-links a {
     color: var(--clr-grey-11);
     text-transform: capitalize;
-    padding: 0 15px;
+    padding: 20px 15px;
     font-size: 14px;
     position: relative;
     -moz-transition: var(--transition);
@@ -387,6 +387,12 @@ Navbar
     color: var(--clr-primary-5);
     box-shadow: 0px 2px var(--clr-primary-5);
   }
+
+  .nav-links .is-current > a {
+    color: var(--clr-primary-5);
+    box-shadow: 0px 2px var(--clr-primary-5);
+  }
+
   .nav-center {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -418,6 +424,13 @@ top backgound header
   width: 100%;
   left: 0;
   top: 0;
+}
+
+#tsparticles {
+  max-height: 480px;
+  position: absolute;
+  background: black;
+  width: 100%;
 }
 
 /*
@@ -1710,6 +1723,17 @@ About Page
   .about-text {
     grid-column: 6 / -1;
   }
+}
+/*
+=========
+FAB
+=========
+*/
+.custom-fab {
+  right: 3rem !important;
+  bottom: 3rem !important;
+  font-size: 2rem !important;
+  position: fixed !important;
 }
 /*
 ===============

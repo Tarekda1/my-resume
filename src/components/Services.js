@@ -5,7 +5,7 @@ import SubTitle from "./SubTitle";
 
 const Services = () => {
   return (
-    <div className="row">
+    <div className="row" id="services">
       <div className="col-12">
         <SubTitle title="Services" />
         <section className="services-section">

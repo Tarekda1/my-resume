@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
 import TopBackground from "./TopBackground";
+import CustomFab from "./CustomFab";
 const Layout = ({ children }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const toggleSidebar = () => {
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
           <Navbar toggleSidebar={toggleSidebar} />
           <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
           {children}
+          <CustomFab />
           <Footer />
         </div>
       </div>

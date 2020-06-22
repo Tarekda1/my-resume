@@ -26,7 +26,7 @@ const Hero = () => {
   return (
     <div className="row">
       <div className="col-12">
-        <header className="hero card">
+        <header id="about" className="hero card">
           <div className="section-center hero-center">
             <div className="hero-img-wrapper">
               <Image fixed={fixed} className="hero-img" />

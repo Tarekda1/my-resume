@@ -8,7 +8,7 @@ const CollageItem = ({ date, title, institute }) => {
         <div className="timeline-heading">
           <h4 className="mb-10">{title}</h4>
           <span className="duration mb-5">{date}</span>
-          <span class="institution">{institute}</span>
+          <span className="institution">{institute}</span>
         </div>
       </div>
     </div>

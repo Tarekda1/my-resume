@@ -5,7 +5,7 @@ import Experience from "./Experience";
 
 const Experiences = () => {
   return (
-    <div className="row">
+    <div className="row" id="experience">
       <div className="col-12">
         <section className="section-wrapper section">
           <SubTitle title="Experience" />
@@ -13,6 +13,7 @@ const Experiences = () => {
             {experiences.map((experience) => {
               return (
                 <Experience
+                  key={experience.id}
                   title={experience.title}
                   jobDesc={experience.text}
                   badge={experience.badge}

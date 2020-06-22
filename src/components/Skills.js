@@ -4,7 +4,7 @@ import Skill from "./Skill";
 
 const Skills = () => {
   return (
-    <div className="row">
+    <div className="row" id="skills">
       <div className="col-12">
         <section className="section">
           <div className="section-kills">
