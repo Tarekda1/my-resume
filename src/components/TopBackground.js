@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 import { animated, useSpring } from "react-spring";
 //<div className="bg-struct bg-img"></div>;
 
-const calc = (o) => `translateY(${o * 0.15}px)`;
+const calc = (o) => `translateY(${o * 0.2}px)`;
 
 const TopBackground = () => {
   const ref = useRef();
@@ -12,7 +12,7 @@ const TopBackground = () => {
   const handleScroll = () => {
     const posY = ref.current.getBoundingClientRect().top;
     const offset = window.pageYOffset - posY;
-    set({ offset });
+    if (offset < 350) set({ offset });
     //console.log(offset);
   };
 
