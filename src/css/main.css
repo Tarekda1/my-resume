@@ -350,6 +350,7 @@ Navbar and drawer
   transition: var(--transition);
   padding: 0 20px;
   justify-content: center;
+  outline: none;
 }
 
 .toggle-btn:hover {

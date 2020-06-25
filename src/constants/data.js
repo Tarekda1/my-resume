@@ -35,7 +35,7 @@ export const collages = [
   {
     id: 1,
     institute: "Lebanese International Univeristy",
-    title: "Master in computer engineering",
+    title: "Masters in computer && communication engineering",
     date: "2010-2012",
   },
   {

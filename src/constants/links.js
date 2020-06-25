@@ -5,6 +5,7 @@ import InfoIcon from "@material-ui/icons/Info";
 import BuildIcon from "@material-ui/icons/Build";
 import WorkIcon from "@material-ui/icons/Work";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
+import SportsBasketballIcon from "@material-ui/icons/SportsBasketball";
 import SchoolIcon from "@material-ui/icons/School";
 import BookIcon from "@material-ui/icons/Book";
 import { animateScroll as scroll, scroller } from "react-scroll";
@@ -32,7 +33,7 @@ export const data = [
     id: 4,
     text: "interests",
     url: "/blog/",
-    icon: <BuildIcon />,
+    icon: <SportsBasketballIcon />,
   },
   {
     id: 5,
