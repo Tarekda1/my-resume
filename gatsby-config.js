@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: "WebDev Portfolio",
-    description: "This is WebDev Portfolio Site",
+    title: "Fullstack Developer",
+    description: "fullstack developer, nodejs, react, html, css3, frontend",
     author: "@webdev",
     twitterUsername: "@tarek.da",
     image: "/twitter-img.png",
