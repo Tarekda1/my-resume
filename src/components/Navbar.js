@@ -42,6 +42,10 @@ const useStyles = makeStyles((theme) => ({
     margin: "0.8rem 0 0",
     color: "var(--clr-primary-5)",
   },
+  listItem: {
+    fontSize: ".9rem",
+    textTransform: "capitalize",
+  },
 }));
 
 const query = graphql`
@@ -93,7 +97,7 @@ const Navbar = ({ toggleSidebar }) => {
           <>
             <ListItem button key={id}>
               <ListItemIcon>{icon}</ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText primary={text} className={classes.listItem} />
             </ListItem>
             <Divider />
           </>
@@ -127,6 +131,9 @@ const Navbar = ({ toggleSidebar }) => {
             <SocialLinks styleClass="drawer-social-icons" />
           </div>
           {list("left")}
+          <div className="copyright">
+            <p>tarek&copy;{new Date().getFullYear()}</p>
+          </div>
         </Drawer>
       </div>
     </nav>
