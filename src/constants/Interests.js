@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: 5,
-    icon: <RiMovieLine className="interest-icon"></RiMovieLine>,
+    icon: <FcReading className="interest-icon"></FcReading>,
     text: "reading",
   },
 ];
