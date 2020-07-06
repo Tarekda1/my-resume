@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 ## Setup Notes
 
 1. All components ready to go (including imports)
@@ -9,18 +10,15 @@
 [react icons] :https://react-icons.github.io/react-icons/
 
 ```javascript
-import { FaHome } from "react-icons/fa"
+import { FaHome } from "react-icons/fa";
 const Component = () => {
-  return <FaHome className="icon"></FaHome>
-}
+  return <FaHome className="icon"></FaHome>;
+};
 ```
 
 5. Use constants to avoid repetition.
-6. In order to follow along with the video use my backend (url below)
 
-   [strapi backend]:https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api
-
-7. Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
+6) Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
 
 ```javascript
 {
@@ -35,7 +33,11 @@ const Component = () => {
       },
     },
 ```
+
 =======
+
 # gatys-portfolio
+
 A portfolio website using gatsby and graphql
->>>>>>> 0124e80b2ecfa52243a276f34a651a661eb49505
+
+> > > > > > > 0124e80b2ecfa52243a276f34a651a661eb49505
